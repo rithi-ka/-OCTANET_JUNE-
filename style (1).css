@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4e3c1; /* Parchment-like background color */
+}
+
+h1 {
+    text-align: center;
+    color: #3d2e13; /* Dark brown for header */
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    margin-bottom: 5px;
+    background-color: #fff9eb; /* Off-white background for tasks */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #e8d1ae; /* Light brown for buttons */
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.prioritize {
+    background-color: #f2c9b6; /* Light red for prioritized tasks */
+}
